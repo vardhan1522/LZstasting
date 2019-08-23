@@ -12,52 +12,52 @@ Parameters:
   VpcCIDR:
     Description: Please enter the IP range (CIDR notation) for this VPC
     Type: String
-    Default: 10.14.10.0/24
+    Default: 100.14.10.0/24
 
   PublicSubnet1CIDR:
     Description: Please enter the IP range (CIDR notation) for the public subnet in the first Availability Zone
     Type: String
-    Default: 10.14.10.64/28
+    Default: 100.14.10.64/29
 
   PublicSubnet2CIDR:
     Description: Please enter the IP range (CIDR notation) for the public subnet in the second Availability Zone
     Type: String
-    Default: 10.14.10.80/28
+    Default: 100.14.10.80/29
 
   PublicSubnet3CIDR:
     Description: Please enter the IP range (CIDR notation) for the public subnet in the Third Availability Zone
     Type: String
-    Default: 10.14.10.96/28
+    Default: 100.14.10.96/29
 
   PrivateSubnet1CIDR:
     Description: Please enter the IP range (CIDR notation) for the private subnet in the first Availability Zone
     Type: String
-    Default: 10.14.10.128/27
+    Default: 100.14.10.128/28
 
   PrivateSubnet2CIDR:
     Description: Please enter the IP range (CIDR notation) for the private subnet in the second Availability Zone
     Type: String
-    Default: 10.14.10.160/27	
+    Default: 100.14.10.160/29	
   
   PrivateSubnet3CIDR:
     Description: Please enter the IP range (CIDR notation) for the private subnet in the Third Availability Zone
     Type: String
-    Default: 10.14.10.192/27
+    Default: 100.14.10.192/27
   
   DBPrivateSubnet1CIDR:
     Description: Please enter the IP range (CIDR notation) for the DBprivate subnet in the second Availability Zone
     Type: String
-    Default: 10.14.10.224/28
+    Default: 100.14.10.224/28
   
   DBPrivateSubnet2CIDR:
     Description: Please enter the IP range (CIDR notation) for the DBprivate subnet in the second Availability Zone
     Type: String
-    Default: 10.14.10.112/28
+    Default: 100.14.10.112/28
   
   DBPrivateSubnet3CIDR:
     Description: Please enter the IP range (CIDR notation) for the DBprivate subnet in the Third Availability Zone
     Type: String
-    Default: 10.14.10.240/28
+    Default: 100.14.10.240/28
 
 Resources:
   VPC:
